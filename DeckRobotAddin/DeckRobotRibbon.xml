@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabHome">
+        <group insertBeforeMso="GroupFont" id="gr1" label="DeckRobot Add-in">
+					<button id="btn_hello_world" getImage="GetImage" onAction="OnButtonClick" size="large" label="Hello" />
+					<button id="btn_open_new" getImage="GetImage" onAction="OnButtonClick" size="large" label="Open New" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
